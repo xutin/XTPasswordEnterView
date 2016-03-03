@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015021C71C8821B200543785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015021C61C8821B200543785 /* main.m */; };
+		015021CA1C8821B200543785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015021C91C8821B200543785 /* AppDelegate.m */; };
+		015021CD1C8821B200543785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015021CC1C8821B200543785 /* ViewController.m */; };
+		015021D01C8821B200543785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015021CE1C8821B200543785 /* Main.storyboard */; };
+		015021D31C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 015021D11C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodeld */; };
+		015021D51C8821B200543785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015021D41C8821B200543785 /* Assets.xcassets */; };
+		015021D81C8821B200543785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015021D61C8821B200543785 /* LaunchScreen.storyboard */; };
+		015021E31C8821B200543785 /* XTPasswordEnterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015021E21C8821B200543785 /* XTPasswordEnterViewDemoTests.m */; };
+		015021EE1C8821B200543785 /* XTPasswordEnterViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015021ED1C8821B200543785 /* XTPasswordEnterViewDemoUITests.m */; };
+		29F7522FABFBD8BBD5C0DC3B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0568EA68B38D3E2ED7A237 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015021DF1C8821B200543785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015021BA1C8821B200543785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015021C11C8821B200543785;
+			remoteInfo = XTPasswordEnterViewDemo;
+		};
+		015021EA1C8821B200543785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015021BA1C8821B200543785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015021C11C8821B200543785;
+			remoteInfo = XTPasswordEnterViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015021C21C8821B200543785 /* XTPasswordEnterViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTPasswordEnterViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015021C61C8821B200543785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015021C81C8821B200543785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		015021C91C8821B200543785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		015021CB1C8821B200543785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		015021CC1C8821B200543785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		015021CF1C8821B200543785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		015021D21C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XTPasswordEnterViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		015021D41C8821B200543785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015021D71C8821B200543785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		015021D91C8821B200543785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015021DE1C8821B200543785 /* XTPasswordEnterViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTPasswordEnterViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		015021E21C8821B200543785 /* XTPasswordEnterViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPasswordEnterViewDemoTests.m; sourceTree = "<group>"; };
+		015021E41C8821B200543785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015021E91C8821B200543785 /* XTPasswordEnterViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTPasswordEnterViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		015021ED1C8821B200543785 /* XTPasswordEnterViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPasswordEnterViewDemoUITests.m; sourceTree = "<group>"; };
+		015021EF1C8821B200543785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0568EA68B38D3E2ED7A237 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7072320FF62C1B3977C254D2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A12D504E0FA3A4CE2682191A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015021BF1C8821B200543785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F7522FABFBD8BBD5C0DC3B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021DB1C8821B200543785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021E61C8821B200543785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015021B91C8821B200543785 = {
+			isa = PBXGroup;
+			children = (
+				015021C41C8821B200543785 /* XTPasswordEnterViewDemo */,
+				015021E11C8821B200543785 /* XTPasswordEnterViewDemoTests */,
+				015021EC1C8821B200543785 /* XTPasswordEnterViewDemoUITests */,
+				015021C31C8821B200543785 /* Products */,
+				A10C09C9696E962F9540E7AD /* Pods */,
+				4ACF9602F9BBEC919802AFC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		015021C31C8821B200543785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015021C21C8821B200543785 /* XTPasswordEnterViewDemo.app */,
+				015021DE1C8821B200543785 /* XTPasswordEnterViewDemoTests.xctest */,
+				015021E91C8821B200543785 /* XTPasswordEnterViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015021C41C8821B200543785 /* XTPasswordEnterViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				015021C81C8821B200543785 /* AppDelegate.h */,
+				015021C91C8821B200543785 /* AppDelegate.m */,
+				015021CB1C8821B200543785 /* ViewController.h */,
+				015021CC1C8821B200543785 /* ViewController.m */,
+				015021CE1C8821B200543785 /* Main.storyboard */,
+				015021D41C8821B200543785 /* Assets.xcassets */,
+				015021D61C8821B200543785 /* LaunchScreen.storyboard */,
+				015021D91C8821B200543785 /* Info.plist */,
+				015021D11C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodeld */,
+				015021C51C8821B200543785 /* Supporting Files */,
+			);
+			path = XTPasswordEnterViewDemo;
+			sourceTree = "<group>";
+		};
+		015021C51C8821B200543785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015021C61C8821B200543785 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		015021E11C8821B200543785 /* XTPasswordEnterViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				015021E21C8821B200543785 /* XTPasswordEnterViewDemoTests.m */,
+				015021E41C8821B200543785 /* Info.plist */,
+			);
+			path = XTPasswordEnterViewDemoTests;
+			sourceTree = "<group>";
+		};
+		015021EC1C8821B200543785 /* XTPasswordEnterViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				015021ED1C8821B200543785 /* XTPasswordEnterViewDemoUITests.m */,
+				015021EF1C8821B200543785 /* Info.plist */,
+			);
+			path = XTPasswordEnterViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		4ACF9602F9BBEC919802AFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0568EA68B38D3E2ED7A237 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10C09C9696E962F9540E7AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A12D504E0FA3A4CE2682191A /* Pods.debug.xcconfig */,
+				7072320FF62C1B3977C254D2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015021C11C8821B200543785 /* XTPasswordEnterViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015021F21C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemo" */;
+			buildPhases = (
+				24244652A5E7A0A664DDC3CF /* Check Pods Manifest.lock */,
+				015021BE1C8821B200543785 /* Sources */,
+				015021BF1C8821B200543785 /* Frameworks */,
+				015021C01C8821B200543785 /* Resources */,
+				3A1BD1FD50C444EB664AC2DA /* Embed Pods Frameworks */,
+				8D8F553EC2CBEC8888AE18FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTPasswordEnterViewDemo;
+			productName = XTPasswordEnterViewDemo;
+			productReference = 015021C21C8821B200543785 /* XTPasswordEnterViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		015021DD1C8821B200543785 /* XTPasswordEnterViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015021F51C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemoTests" */;
+			buildPhases = (
+				015021DA1C8821B200543785 /* Sources */,
+				015021DB1C8821B200543785 /* Frameworks */,
+				015021DC1C8821B200543785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015021E01C8821B200543785 /* PBXTargetDependency */,
+			);
+			name = XTPasswordEnterViewDemoTests;
+			productName = XTPasswordEnterViewDemoTests;
+			productReference = 015021DE1C8821B200543785 /* XTPasswordEnterViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		015021E81C8821B200543785 /* XTPasswordEnterViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015021F81C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemoUITests" */;
+			buildPhases = (
+				015021E51C8821B200543785 /* Sources */,
+				015021E61C8821B200543785 /* Frameworks */,
+				015021E71C8821B200543785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015021EB1C8821B200543785 /* PBXTargetDependency */,
+			);
+			name = XTPasswordEnterViewDemoUITests;
+			productName = XTPasswordEnterViewDemoUITests;
+			productReference = 015021E91C8821B200543785 /* XTPasswordEnterViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015021BA1C8821B200543785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Peter Peng";
+				TargetAttributes = {
+					015021C11C8821B200543785 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					015021DD1C8821B200543785 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 015021C11C8821B200543785;
+					};
+					015021E81C8821B200543785 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 015021C11C8821B200543785;
+					};
+				};
+			};
+			buildConfigurationList = 015021BD1C8821B200543785 /* Build configuration list for PBXProject "XTPasswordEnterViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015021B91C8821B200543785;
+			productRefGroup = 015021C31C8821B200543785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015021C11C8821B200543785 /* XTPasswordEnterViewDemo */,
+				015021DD1C8821B200543785 /* XTPasswordEnterViewDemoTests */,
+				015021E81C8821B200543785 /* XTPasswordEnterViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015021C01C8821B200543785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015021D81C8821B200543785 /* LaunchScreen.storyboard in Resources */,
+				015021D51C8821B200543785 /* Assets.xcassets in Resources */,
+				015021D01C8821B200543785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021DC1C8821B200543785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021E71C8821B200543785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24244652A5E7A0A664DDC3CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1BD1FD50C444EB664AC2DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8F553EC2CBEC8888AE18FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015021BE1C8821B200543785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015021CD1C8821B200543785 /* ViewController.m in Sources */,
+				015021D31C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodeld in Sources */,
+				015021CA1C8821B200543785 /* AppDelegate.m in Sources */,
+				015021C71C8821B200543785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021DA1C8821B200543785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015021E31C8821B200543785 /* XTPasswordEnterViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015021E51C8821B200543785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015021EE1C8821B200543785 /* XTPasswordEnterViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015021E01C8821B200543785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015021C11C8821B200543785 /* XTPasswordEnterViewDemo */;
+			targetProxy = 015021DF1C8821B200543785 /* PBXContainerItemProxy */;
+		};
+		015021EB1C8821B200543785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015021C11C8821B200543785 /* XTPasswordEnterViewDemo */;
+			targetProxy = 015021EA1C8821B200543785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		015021CE1C8821B200543785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015021CF1C8821B200543785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		015021D61C8821B200543785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015021D71C8821B200543785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015021F01C8821B200543785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		015021F11C8821B200543785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015021F31C8821B200543785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12D504E0FA3A4CE2682191A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTPasswordEnterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		015021F41C8821B200543785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7072320FF62C1B3977C254D2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XTPasswordEnterViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		015021F61C8821B200543785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTPasswordEnterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTPasswordEnterViewDemo.app/XTPasswordEnterViewDemo";
+			};
+			name = Debug;
+		};
+		015021F71C8821B200543785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XTPasswordEnterViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTPasswordEnterViewDemo.app/XTPasswordEnterViewDemo";
+			};
+			name = Release;
+		};
+		015021F91C8821B200543785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTPasswordEnterViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTPasswordEnterViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		015021FA1C8821B200543785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XTPasswordEnterViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solutionet.XTPasswordEnterViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTPasswordEnterViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015021BD1C8821B200543785 /* Build configuration list for PBXProject "XTPasswordEnterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015021F01C8821B200543785 /* Debug */,
+				015021F11C8821B200543785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015021F21C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015021F31C8821B200543785 /* Debug */,
+				015021F41C8821B200543785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015021F51C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015021F61C8821B200543785 /* Debug */,
+				015021F71C8821B200543785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015021F81C8821B200543785 /* Build configuration list for PBXNativeTarget "XTPasswordEnterViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015021F91C8821B200543785 /* Debug */,
+				015021FA1C8821B200543785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		015021D11C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				015021D21C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodel */,
+			);
+			currentVersion = 015021D21C8821B200543785 /* XTPasswordEnterViewDemo.xcdatamodel */;
+			path = XTPasswordEnterViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 015021BA1C8821B200543785 /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - XTPasswordEnterView (1.0)
+
+DEPENDENCIES:
+  - XTPasswordEnterView (~> 1.0)
+
+SPEC CHECKSUMS:
+  XTPasswordEnterView: e82f70d640f6386cc52a4e91f7c8d258bb4e1081
+
+COCOAPODS: 0.39.0

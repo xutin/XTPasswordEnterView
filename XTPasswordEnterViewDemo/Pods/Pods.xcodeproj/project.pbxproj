@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003C5E9C9E28B4C8656CAC22CD1CF795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		07298177BD4FF9B4ADC416DA197CCBDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		48813EA915B79D6B905AC6315365F566 /* UITextField+CharactorLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = B01F90DB457330AC8869112F07525A53 /* UITextField+CharactorLimit.m */; };
+		9531192EA7428FFC9929C81DBCA59275 /* PasswordEnterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DC340EF5DC6431A0DBB0E2E63D74E6 /* PasswordEnterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4CDBD27F7835544864305582CDF2CB6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		C237F353C6C9D9BF0657D13160DACA7F /* PasswordEnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C19AFA69D29913C0C5B4D298E33DD6 /* PasswordEnterView.m */; };
+		CAB75F3CD5AE0E0DD47EC8BB1AC08704 /* XTPasswordEnterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 345243A5361402C5B72AD07D0B2C74AF /* XTPasswordEnterView-dummy.m */; };
+		D9EB476D14EB13D92A812C3D80139B53 /* UITextField+CharactorLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A170EDABB2A8BB7E004599133D1AC2C /* UITextField+CharactorLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB2B0DEFA93FB081FFAA743674D92A4 /* DQPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D17F02C05BBD7FA0A58E743154DA2 /* DQPasswordField.m */; };
+		F5A29ED62933E3294E1D87BD8F3E2CBE /* DQPasswordField.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFC9C441F5F01E6F1293507A2617010 /* DQPasswordField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B883FDFB85F855D3F56E14466765B1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5957C84CCEA6556DEE2C210ED748240;
+			remoteInfo = XTPasswordEnterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		345243A5361402C5B72AD07D0B2C74AF /* XTPasswordEnterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTPasswordEnterView-dummy.m"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		58FB03FC6E8002FC64720B8DDC65E1BA /* libXTPasswordEnterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXTPasswordEnterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A170EDABB2A8BB7E004599133D1AC2C /* UITextField+CharactorLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+CharactorLimit.h"; path = "XTPasswordEnterView/UITextField+CharactorLimit.h"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		820D17F02C05BBD7FA0A58E743154DA2 /* DQPasswordField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DQPasswordField.m; path = XTPasswordEnterView/DQPasswordField.m; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		B01F90DB457330AC8869112F07525A53 /* UITextField+CharactorLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+CharactorLimit.m"; path = "XTPasswordEnterView/UITextField+CharactorLimit.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1C19AFA69D29913C0C5B4D298E33DD6 /* PasswordEnterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PasswordEnterView.m; path = XTPasswordEnterView/PasswordEnterView.m; sourceTree = "<group>"; };
+		DD4FF58AA46AAA44FEF5947A18FD90C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E489EF845E1216EEFE9082FA887C71 /* XTPasswordEnterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTPasswordEnterView-prefix.pch"; sourceTree = "<group>"; };
+		F9DC340EF5DC6431A0DBB0E2E63D74E6 /* PasswordEnterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasswordEnterView.h; path = XTPasswordEnterView/PasswordEnterView.h; sourceTree = "<group>"; };
+		FC75878394F442D5DA16EFE29FDFAEED /* XTPasswordEnterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTPasswordEnterView.xcconfig; sourceTree = "<group>"; };
+		FFFC9C441F5F01E6F1293507A2617010 /* DQPasswordField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DQPasswordField.h; path = XTPasswordEnterView/DQPasswordField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D18273E3F51D769D7FAF4C8A802E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07298177BD4FF9B4ADC416DA197CCBDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B5C105FA4E5E1B2C3CB16290E1D6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003C5E9C9E28B4C8656CAC22CD1CF795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40A2992F28A3047C310A8DA268643539 /* XTPasswordEnterView */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC9C441F5F01E6F1293507A2617010 /* DQPasswordField.h */,
+				820D17F02C05BBD7FA0A58E743154DA2 /* DQPasswordField.m */,
+				F9DC340EF5DC6431A0DBB0E2E63D74E6 /* PasswordEnterView.h */,
+				D1C19AFA69D29913C0C5B4D298E33DD6 /* PasswordEnterView.m */,
+				5A170EDABB2A8BB7E004599133D1AC2C /* UITextField+CharactorLimit.h */,
+				B01F90DB457330AC8869112F07525A53 /* UITextField+CharactorLimit.m */,
+				C42C6CB215A818DBBBD78D83643867A8 /* Support Files */,
+			);
+			path = XTPasswordEnterView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D66D863B2EA30FD4F9C671DD9B3F1FA0 /* Pods */,
+				C8C1B5BCB88680BF174E1CF7F47973BC /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C42C6CB215A818DBBBD78D83643867A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC75878394F442D5DA16EFE29FDFAEED /* XTPasswordEnterView.xcconfig */,
+				345243A5361402C5B72AD07D0B2C74AF /* XTPasswordEnterView-dummy.m */,
+				E8E489EF845E1216EEFE9082FA887C71 /* XTPasswordEnterView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XTPasswordEnterView";
+			sourceTree = "<group>";
+		};
+		C8C1B5BCB88680BF174E1CF7F47973BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FF58AA46AAA44FEF5947A18FD90C7 /* libPods.a */,
+				58FB03FC6E8002FC64720B8DDC65E1BA /* libXTPasswordEnterView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66D863B2EA30FD4F9C671DD9B3F1FA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A2992F28A3047C310A8DA268643539 /* XTPasswordEnterView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		665BC80BFF36E3A7EE7F7CAF90CBCD7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A29ED62933E3294E1D87BD8F3E2CBE /* DQPasswordField.h in Headers */,
+				9531192EA7428FFC9929C81DBCA59275 /* PasswordEnterView.h in Headers */,
+				D9EB476D14EB13D92A812C3D80139B53 /* UITextField+CharactorLimit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8898E6A138C774C62FA6374E1E4E47F3 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A56ED11A794867E82E0210CD0AB0F8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				48AD02DC413E83341A7985BC9FB8C520 /* Sources */,
+				44B5C105FA4E5E1B2C3CB16290E1D6E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66D2FEB55CFB5B7ACB967816C4C5465 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = DD4FF58AA46AAA44FEF5947A18FD90C7 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5957C84CCEA6556DEE2C210ED748240 /* XTPasswordEnterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF924DF6926B8984F6ED5CA44F3D2D13 /* Build configuration list for PBXNativeTarget "XTPasswordEnterView" */;
+			buildPhases = (
+				4C865A37AA6009E0E0130EDC5B1DD24A /* Sources */,
+				28D18273E3F51D769D7FAF4C8A802E82 /* Frameworks */,
+				665BC80BFF36E3A7EE7F7CAF90CBCD7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTPasswordEnterView;
+			productName = XTPasswordEnterView;
+			productReference = 58FB03FC6E8002FC64720B8DDC65E1BA /* libXTPasswordEnterView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8C1B5BCB88680BF174E1CF7F47973BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8898E6A138C774C62FA6374E1E4E47F3 /* Pods */,
+				A5957C84CCEA6556DEE2C210ED748240 /* XTPasswordEnterView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48AD02DC413E83341A7985BC9FB8C520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CDBD27F7835544864305582CDF2CB6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C865A37AA6009E0E0130EDC5B1DD24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB2B0DEFA93FB081FFAA743674D92A4 /* DQPasswordField.m in Sources */,
+				C237F353C6C9D9BF0657D13160DACA7F /* PasswordEnterView.m in Sources */,
+				48813EA915B79D6B905AC6315365F566 /* UITextField+CharactorLimit.m in Sources */,
+				CAB75F3CD5AE0E0DD47EC8BB1AC08704 /* XTPasswordEnterView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66D2FEB55CFB5B7ACB967816C4C5465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XTPasswordEnterView;
+			target = A5957C84CCEA6556DEE2C210ED748240 /* XTPasswordEnterView */;
+			targetProxy = B883FDFB85F855D3F56E14466765B1B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D3943F8727354A543DEC5B4D884EE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA702F6E1D28B2B10505B4F2DC34A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC75878394F442D5DA16EFE29FDFAEED /* XTPasswordEnterView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XTPasswordEnterView/XTPasswordEnterView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DBF1F14226ED41D19C8A9A0B4EFCFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB52B1744EB2479C8DCE4CCCE4D0400E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC75878394F442D5DA16EFE29FDFAEED /* XTPasswordEnterView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XTPasswordEnterView/XTPasswordEnterView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A56ED11A794867E82E0210CD0AB0F8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3943F8727354A543DEC5B4D884EE7C /* Debug */,
+				F5DBF1F14226ED41D19C8A9A0B4EFCFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF924DF6926B8984F6ED5CA44F3D2D13 /* Build configuration list for PBXNativeTarget "XTPasswordEnterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB52B1744EB2479C8DCE4CCCE4D0400E /* Debug */,
+				BA702F6E1D28B2B10505B4F2DC34A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
