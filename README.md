@@ -1,4 +1,7 @@
 # XTPasswordEnterView
-password enter view for iOS 
-pod
- pod 'XTPasswordEnterView', '~> 1.0'
+# password enter view for iOS 
+
+
+
+#pod
+ #pod 'XTPasswordEnterView', '~> 1.0'
