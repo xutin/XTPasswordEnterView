@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-     s.name         = 'XTPasswordEnterView'
+          s.name         = 'XTPasswordEnterView'
 	  s.version      = '1.0'
 	  s.summary      = 'password enter view for iOS.'
 	  s.homepage     = 'https://github.com/xutin/XTPasswordEnterView'
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 	  s.author       = {'xutin' => 'xuting@365qian.com'}
 	  s.platform     = :ios, '8.0'
 	  s.source       = {:git => 'https://github.com/xutin/XTPasswordEnterView.git', :tag => s.version}
-	  s.source_files = ’XTPasswordEnterView/**/*.{h,m}’
+	  s.source_files = 'XTPasswordEnterView/**/*.{h,m}'
 	  s.requires_arc = true
-
 end
